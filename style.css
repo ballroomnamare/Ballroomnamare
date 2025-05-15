@@ -1,0 +1,109 @@
+/*ESTILIZACAO GLOBAL */
+
+body{
+    font-family: "Poppins", sans-serif;
+    background-color: rgba(255, 222, 255, 0.533);
+}
+h1{
+    /*texto inicial home*/
+    text-align: center;
+    background-color:  #e93c3c;
+    
+}
+.nav-bar ul{
+    display:flex;
+    justify-content: center;
+    margin: 0;
+    padding: 10; 
+    background-color: #fabfbf;
+    /* aqui e pra alterar a linha de home,perceiros,etc*/
+}
+.nav-bar a{
+    padding: 15px 10px;
+    text-decoration: double;
+    text-decoration:wavy;
+    list-style-type:none;
+    
+}
+.nav-bar a:hover{
+    background-color: rgb(231, 78, 116);
+    background-size:contain
+
+}
+.card-container{
+    display: flex;
+    justify-content:space-around;
+}
+.card{
+    width: 500px;
+    height: 750px;
+    background-color: #000000;
+    border: 1px solid #e93c3c;
+    border-radius: 15px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+
+.botao{
+    background-color: rgb(rgb(122, 43, 43), green, rgb(78, 78, 143)); 
+    color: #c25b5b;
+    font-family: "Poppins", sans-serif;
+    padding:10px 15px;
+    border:5px solid rgb(rgb(228, 192, 192), green, rgb(79, 79, 153));
+    border-radius: 4px;
+} 
+
+
+
+
+
+
+
+/*FORMULARIO */
+
+form{
+    max-width: 500px;
+    border: 10px solid #5a0303;
+    border-radius: 20;
+    padding: 30px;
+    margin:0 auto;
+    width: 100%;
+}
+input{
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    padding: 5px;
+    border: 5px solid rgb(112, 112, 190);
+    border-bottom: 5px;
+}
+input[type="radio"],
+input[type="checkbox"]{
+    width: auto;
+    margin: 15px;
+}
+
+/*estilizacao do curso*/
+table{
+    border-collapse: collapse;
+    margin: 0 auto;
+
+}
+th,td{
+
+    padding: 7px;
+    border: 1px solid #000000;
+    text-align: center;
+
+    
+    
+} 
+
+th{
+    background-color: #e74848;
+}
+
+td{
+    background-color: #f18383;
+}
